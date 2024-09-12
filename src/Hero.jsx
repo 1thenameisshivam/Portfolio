@@ -71,7 +71,7 @@ export default function Hero({ darkMode }) {
         <img
           src="../public/img.png"
           alt="Shivam Kumar"
-          className="rounded-lg h-[300px] w-[400px] mt-16 transition-transform duration-300"
+          className="rounded-lg h-[270px] w-[400px] mt-16 transition-transform duration-300"
         />
       </div>
     </section>

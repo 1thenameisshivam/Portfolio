@@ -2,10 +2,28 @@
 export default function Projects({ darkMode }) {
   const projects = [
     {
-      name: "Sabrang 2024",
-      description: "Official website of annual fest of JKLU.",
+      name: "Journey-Juggler",
+      description: "Ai based travel itinerary planner",
+      link: "https://journey-juggler.vercel.app/",
     },
-    { name: "SolEth", description: "Web-wallet for Ethereum and Solana" },
+    {
+      name: "Netflix-Gpt",
+      description:
+        "movie search and movie recomendation system added in netflix ui",
+      link: "https://movixex.netlify.app/",
+    },
+    {
+      name: "Thoughts-app",
+      description:
+        "Thoughts app provides a platform to share your thoughts and ideas with the world anonymously.",
+      link: "https://thought-s.netlify.app/",
+    },
+    {
+      name: "Path.ai",
+      description:
+        "Path.ai is a platform where you create roadmap for any technology and share with the world.",
+      link: "https://pathai.vercel.app/",
+    },
   ];
 
   return (
@@ -30,7 +48,8 @@ export default function Projects({ darkMode }) {
                 GitHub
               </a>
               <a
-                href="#"
+                href={project.link}
+                target="_blank"
                 className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
               >
                 Go to Project
