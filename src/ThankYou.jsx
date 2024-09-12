@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function ThankYou({ darkMode }) {
   return (
     <section className="mt-12 text-center">

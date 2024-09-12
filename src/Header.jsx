@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Moon, Sun } from "lucide-react";
 
 export default function Header({ darkMode, setDarkMode }) {

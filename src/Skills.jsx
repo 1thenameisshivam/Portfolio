@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Skills({ darkMode }) {
   const skills = [
     "React",
