@@ -5,7 +5,14 @@ export default function Skills({ darkMode }) {
     "JavaScript",
     "TypeScript",
     "Node.js",
-    "Python",
+    "Express",
+    "MongoDB",
+    "Firebase",
+    "docker",
+    "Ai Integration",
+    "Vector Embeddings",
+    "tailwindcss",
+    "shadcn/ui",
     "Git",
   ];
 

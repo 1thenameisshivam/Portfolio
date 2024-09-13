@@ -31,7 +31,11 @@ export default function Hero({ darkMode }) {
               label: "Email",
               href: "mailto:1thenameisshivam@gmail.com",
             },
-            { Icon: FileText, label: "Resume", href: "../public/resume.pdf" }, // Add resume link here
+            {
+              Icon: FileText,
+              label: "Resume",
+              href: "https://drive.google.com/file/d/1XdTaLqW9LMD3BD707S5qf5McHkeDAYpU/view?usp=sharing",
+            }, // Add resume link here
             {
               Icon: Github,
               label: "GitHub",
@@ -69,7 +73,7 @@ export default function Hero({ darkMode }) {
 
       <div className="md:w-1/3">
         <img
-          src="../public/img.png"
+          src={`https://res.cloudinary.com/dym9ezwae/image/upload/v1726214461/ek6gg9niarmomok1kot2.png`}
           alt="Shivam Kumar"
           className="rounded-lg h-[270px] w-[400px] mt-16 transition-transform duration-300"
         />

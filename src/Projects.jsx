@@ -5,24 +5,28 @@ export default function Projects({ darkMode }) {
       name: "Journey-Juggler",
       description: "Ai based travel itinerary planner",
       link: "https://journey-juggler.vercel.app/",
+      github: "https://github.com/1thenameisshivam/Journey-Juggler",
     },
     {
       name: "Netflix-Gpt",
       description:
         "movie search and movie recomendation system added in netflix ui",
       link: "https://movixex.netlify.app/",
+      github: "https://github.com/1thenameisshivam/Netflix_GPT",
     },
     {
       name: "Thoughts-app",
       description:
         "Thoughts app provides a platform to share your thoughts and ideas with the world anonymously.",
       link: "https://thought-s.netlify.app/",
+      github: "https://github.com/1thenameisshivam/Thoughts",
     },
     {
       name: "Path.ai",
       description:
         "Path.ai is a platform where you create roadmap for any technology and share with the world.",
       link: "https://pathai.vercel.app/",
+      github: "https://github.com/1thenameisshivam/Path.ai",
     },
   ];
 
@@ -44,7 +48,10 @@ export default function Projects({ darkMode }) {
               {project.description}
             </p>
             <div className="flex justify-between items-center">
-              <a href="#" className="text-blue-400 hover:underline">
+              <a
+                href={project.github}
+                className="text-blue-400 hover:underline"
+              >
                 GitHub
               </a>
               <a
